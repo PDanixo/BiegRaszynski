@@ -1,0 +1,76 @@
+/* Universal Styles */
+html {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: #15313D;
+    background-color: eaeaea;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2, h4, h5 {
+    text-align: center;
+}
+/* Header */
+header {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    border: 1px solid whitesmoke;
+    height: 65px;
+    display: flex;  
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo-bieg {
+    height: 60px;
+}
+
+/* Section 2 */
+.gallery h4 {
+    margin-bottom: 10px;
+    margin-top: 100px;
+  }
+
+.gallery {
+  width: 1500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.image-wrapper {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 2%;
+}
+
+.caption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+
+
